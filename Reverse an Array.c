@@ -2,9 +2,9 @@
 void rvereseArray(int arr[], int start, int end)
 {
 	int temp;
-	while (start > end)
+	while (start < end)
 	{
-		temp = arr[start];
+		temp = arr[end];
 		arr[end] = arr[start];
 		arr[start] = temp;
 		start++;
