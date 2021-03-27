@@ -9,7 +9,7 @@ void isPalindrome(char str[])
 	int h = strlen(str) - 1;
 	while (h >= l)
 	{
-		if (str[l--] != str[h++])
+		if (str[l++] != str[h--])
 		{
 			printf("%s is Not Palindrome", str);
 			return;
